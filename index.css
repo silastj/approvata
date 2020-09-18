@@ -1,0 +1,34 @@
+*{
+    outline: 0 !important;
+}
+section{
+    max-width:600px;
+    margin:0 auto;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.container{
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px 2px #000;
+    padding:20px 10px;
+    height: 20px;
+}
+#square{
+    width: 100%;
+    height: 16px;
+    cursor: pointer;
+}
+.res{
+    display:none;
+    background-color: red;
+}
+.res.active{
+    display:flex;
+}
+.btn-center{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
